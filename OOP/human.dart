@@ -1,40 +1,40 @@
 void main(){
-  // data-type variable name
-  //class-human
+  // data type variable name
+  // class-Human
   //class-name instance-name = class-name()
-  Human rahim = Human('Rafi');
+
+  Human rahim =Human('Abdullah', 34,'Dhaka');
+  rahim.name;
+  print(rahim.name);
   rahim.moving();
-  rahim.eating();
-  rahim.talking('Tamim');
-
-  Human karim = Human('Karim');
-  print(karim.name);
-  karim.name='Karim Mia';
+  rahim.talkingWith('Tamim');
+  rahim.address;
 
 
-
+  Human Karim= Human('Karim',34,'534');
+  print(Karim.name);
+  Karim.name= 'Rahim Khan';
+  Karim.address;
 }
 
 class Human{
-  String name ='Rahim';
-  int age =23;
-  String Address ='Dhaka';
+  String name='';
+  int age =0;
+  String address ='';
 
-  Human(String username){
+  Human(String UserName, int Userage, String Useraddress)  {
     print('Creating a new Human');
-    print('$username is moving');
+    name= UserName;
+    age = Userage;
+    address = Useraddress;
   }
+
 
   void moving(){
     print('$name is moving');
   }
-  void eating(){
-    print('$name is eating');
-  }
-  void talking(String talkingWith){
+
+  void talkingWith(String talkingWith){
     print('$name is talking with $talkingWith');
   }
-
-
-
 }
