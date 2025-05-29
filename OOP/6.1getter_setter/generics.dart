@@ -9,6 +9,7 @@ String doSomeThing<T,V>(T a, V b){
   print(something);
  }
 
+
  void main(){
   (print (doSomeThing<int, String>(432523, 'dhgsh')));
   printSomething<int>(3434);
