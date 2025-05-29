@@ -30,7 +30,7 @@ Future<int> sum(int a, int b) async{
 Future<void> main() async {
   AnottherMethod();
   doSomething();
-  print(await sum(23, 234));
+  print(await  sum(23, 234));
 }
 
 // Asynchronous
