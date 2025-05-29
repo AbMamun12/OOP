@@ -5,7 +5,6 @@ String doSomeThing<T,V>(T a, V b){
   return '$a $b';
 }
 
-
  void printSomething<T>(T something){
   print(something);
  }
