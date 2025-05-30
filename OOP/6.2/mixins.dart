@@ -12,7 +12,6 @@ class B{
 }
 
 class Worker with F,E {
-
 }
 mixin F{
   void doSomething(){
