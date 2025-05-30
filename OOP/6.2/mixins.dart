@@ -25,6 +25,5 @@ mixin E{
     print( 'Doing Nothing');
 
   }
-
 }
 
