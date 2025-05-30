@@ -17,7 +17,6 @@ class Worker with F,E {
 mixin F{
   void doSomething(){
     print( 'Doing Nothing');
-
   }
 }
 mixin E{
