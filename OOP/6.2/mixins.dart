@@ -20,7 +20,6 @@ mixin F{
     print( 'Doing Nothing');
 
   }
-
 }
 mixin E{
   void doSomething(){
